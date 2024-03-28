@@ -1,16 +1,14 @@
-### Hi there 👋
+### Hey there!
 
-<!--
-**jonathanfischer97/jonathanfischer97** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My name is Jonathan Fischer and I'm a 4th year PhD student at Johns Hopkins, doing computational modeling in the lab of Dr. Margaret E. Johnson.
 
-Here are some ideas to get you started:
+```julia
+abstract struct PhDStudent end
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+@kwdef mutable struct JonathanFischer <: PhDStudent
+  languages = ["julia", "python", "R"]
+  interests = ["code", "AI", "philosophy"]
+  age = 26
+  should_hire = True
+end
+```
