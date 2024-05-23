@@ -9,6 +9,6 @@ abstract struct PhDStudent end
   languages = ["julia", "python", "javascript"]
   interests = ["evolutionary algorithms", "nonconvex optimization", "language models"]
   age = 26
-  should_hire = True
+  should_hire = true
 end
 ```
