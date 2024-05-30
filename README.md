@@ -6,7 +6,7 @@ My name is Jonathan Fischer and I'm a 4th year PhD student at Johns Hopkins, doi
 abstract struct PhDStudent end
 
 @kwdef mutable struct JonathanFischer <: PhDStudent
-  languages = ["julia", "python", "javascript"]
+  languages = ["julia", "python", "mathematica", "matlab"]
   interests = ["evolutionary algorithms", "nonconvex optimization", "language models"]
   age = 26
   should_hire = true
