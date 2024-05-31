@@ -7,7 +7,7 @@ abstract struct PhDStudent end
 
 @kwdef mutable struct JonathanFischer <: PhDStudent
   languages = ["julia", "python", "mathematica", "matlab"]
-  interests = ["evolutionary algorithms", "nonconvex optimization", "language models"]
+  interests = ["evolutionary algorithms", "optimization", "language models"]
   age = 26
   should_hire = true
 end
